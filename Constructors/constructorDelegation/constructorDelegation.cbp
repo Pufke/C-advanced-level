@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="exampleWithDelegation.cpp" />
+		<Unit filename="exampleWithoutDelegation.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
