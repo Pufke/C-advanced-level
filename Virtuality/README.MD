@@ -18,3 +18,9 @@ This feature is most useful for multiple inheritance, as it makes the virtual ba
 
 
 It is used when inheritance represents restriction of a set rather than composition of parts. In C++, a base class intended to be common throughout the hierarchy is denoted as virtual with the virtual keyword.
+
+# VIRTUAL DESTRUCTOR
+
+![image](https://user-images.githubusercontent.com/49925421/76172893-7be9d000-619a-11ea-80eb-c48d1dbfa1c9.png)
+![image](https://user-images.githubusercontent.com/49925421/76172911-93c15400-619a-11ea-8d57-efdc6d11eceb.png)
+
