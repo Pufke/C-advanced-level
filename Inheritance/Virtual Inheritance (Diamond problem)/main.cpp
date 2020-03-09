@@ -11,12 +11,12 @@ public:
 
 class B : virtual public A {
 public:
-    B() : A() { cout << " B " << endl; }
-};
-class C : virtual public A {
-public:
-    C() : A(3) { cout << " C " << endl; }
-};
+    B() : A() { cout << " B " << endl; }                //Output will be A4
+};                                                      //               B
+class C : virtual public A {                            //               C
+public:                                                 //               D
+    C() : A(3) { cout << " C " << endl; }               //We have virtual inheritance, class D directly inheritance class A, and
+};                                                      //because that we have call of constructor with parameters A(4)
 
 class D : public B, public C {
     public:
