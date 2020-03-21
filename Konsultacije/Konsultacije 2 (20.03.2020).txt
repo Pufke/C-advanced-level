@@ -1,0 +1,27 @@
+Funktor je prekopljeni operator zagrade, i mozemo da mu prosledimo neki parametar 
+Cesto dna elektrijadi daju fukviju i funktor sa istim imenom i pokusavaju na taj nacin da nas zbune.
+
+Ako pozivamo a(6) poziva se funktor tj prekopljeni operator ()
+ako pozivamo ::a(6) poziva se funkcija a
+
+Pioriteti operatora su bitni za elektrijadu, nisu bitni uglavnom za c++ in real life.
+
+int *p;
+*p++ ; // prvo ce se odraditi ++ pa onda derfenciranje toga
+
+postfixni operator vraca Rvalue (Rvalue je konstanta)
+
+Potrebno je znati tabelu prioriteta operatora, da li ce prvo shift , bitwise, or itd...
+
+Postoji pokazivac na funkciju (u ovom primeru je funkcija add): 
+	 int(*pf) (int, int) = &add;
+
+unutar if-a ne pokusavati ovako nesto 
+ LAZY EVALUATION 
+ if( f1() || f2()){
+	cout<.... //f2() se u ovakvim slucajevima nece izvrsiti iz razlog sto nema potrebe drugi uslov izvrsavati ako je prvi odmah tacan, to se zove LAZY EVALUATION... NAJBITNIJA STVAR ZA DANAS!	
+   }
+
+Ako navedemo kljucnu rec ecplicit pored konstruktora, nedozvoljava implicitno pozivanje konstruktora.
+Ako kazemo explicit moramo da mu direktno kazemo kastuj se i pozovi npr 
+A a2 = (A)3.3f;
