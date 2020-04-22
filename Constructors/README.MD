@@ -9,6 +9,7 @@ You create object on this way if you plan on using them throughout (***a long pe
 You create object on this way if you plan on using them for (***a short lifetime (or scope).***)
 
 
+
 # MOVE CONSTRUCTORS
 
 ![image](https://user-images.githubusercontent.com/49925421/75827197-6430d700-5da9-11ea-87e4-51869a3bd384.png)
